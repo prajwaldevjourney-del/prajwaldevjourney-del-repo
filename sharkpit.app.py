@@ -416,7 +416,6 @@ render(
     "<div class='gsub'>Follow these rules. The Sharks are watching every second.</div>"
     "<div class='gg'>"
     "<div class='gc'><span class='gicon'>&#9201;</span><span>10 minutes per team for pitching</span></div>"
-    "<div class='gc'><span class='gicon'>&#128202;</span><span>PPT must be max 7 slides</span></div>"
     "<div class='gc'><span class='gicon'>&#128101;</span><span>Teams of 1 to 4 members</span></div>"
     "<div class='gc'><span class='gicon'>&#127919;</span><span>Cover problem, solution &amp; impact</span></div>"
     "<div class='gc'><span class='gicon'>&#127979;</span><span>Open to all B.Tech years at MECS</span></div>"
