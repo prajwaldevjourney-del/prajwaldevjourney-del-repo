@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 import streamlit as st
 
-st.set_page_config(page_title="SHARKPIT 2026 — S&T Club MECS", page_icon="🦈", layout="wide")
+st.set_page_config(page_title="SHARKPIT 2026 - S&T Club MECS", page_icon="\U0001f988", layout="wide")
 
 # ── SESSION STATE ──────────────────────────────────────────────────────────────
 if "organiser_logged_in" not in st.session_state:
@@ -814,7 +815,7 @@ st.markdown(bg_html, unsafe_allow_html=True)
 # ── 3. TOP BAR ─────────────────────────────────────────────────────────────────
 col_l, col_r = st.columns([3, 1])
 with col_l:
-    st.markdown('<div class="top-brand">🦈 SHARKPIT 2026 — S&amp;T CLUB MECS</div>', unsafe_allow_html=True)
+    st.markdown('<div class="top-brand">🦈 SHARKPIT 2026 &mdash; S&amp;T CLUB MECS</div>', unsafe_allow_html=True)
 with col_r:
     if not st.session_state.organiser_logged_in:
         if st.button("🔐 ORGANISER LOGIN"):
@@ -868,7 +869,7 @@ st.markdown("""
   <div class="about-body">
     SHARKPIT is a high-energy student startup pitch competition and ideathon organized by the S&amp;T Club of MECS.
     Inspired by investor pitch formats, it challenges students to think like entrepreneurs and defend their ideas before
-    experienced industry founders — the Sharks. The event has two parts: a morning casual meetup open to all students,
+    experienced industry founders &mdash; the Sharks. The event has two parts: a morning casual meetup open to all students,
     and exclusive evening finals where the top 20 shortlisted teams pitch live before the Sharks.
   </div>
 </div>
@@ -889,8 +890,8 @@ st.markdown("""
       <div class="sc-name">E SAI ESHWAR</div>
       <div class="sc-role">Ecosystem &amp; Product Operator · Founder</div>
       <div class="sc-bio">
-        Operates at the intersection of Applied AI, strategy, and social impact. Co-founded Studlyf — a student
-        ecosystem platform — and Nirvaha, an AI wellness platform powered by the Bhagavad Gita. 12× national hackathon
+        Operates at the intersection of Applied AI, strategy, and social impact. Co-founded Studlyf &mdash; a student
+        ecosystem platform &mdash; and Nirvaha, an AI wellness platform powered by the Bhagavad Gita. 12× national hackathon
         finalist, mentors 600+ students, and has delivered 10+ public speaking sessions on AI &amp; entrepreneurship.
       </div>
       <div class="sc-tags">
@@ -910,7 +911,7 @@ st.markdown("""
       <div class="sc-role">AI &amp; Cybersecurity Professional · Founder</div>
       <div class="sc-bio">
         Works at the intersection of Artificial Intelligence and Cybersecurity, building production-grade LLM and
-        RAG systems. Speaker at GitTogether Hyderabad — organised by GitHub India and supported by Microsoft.
+        RAG systems. Speaker at GitTogether Hyderabad &mdash; organised by GitHub India and supported by Microsoft.
         Combines AI expertise with a security-first mindset in every system he builds.
       </div>
       <div class="sc-tags">
@@ -978,7 +979,7 @@ st.markdown("""
       <hr class="reg-sep-pink"/>
       <div class="reg-desc">
         Register through Meetup to attend the morning casual session. Come listen to our Shark founders speak,
-        get inspired, and soak in the entrepreneurial energy. Open to every MECS student — no idea submission
+        get inspired, and soak in the entrepreneurial energy. Open to every MECS student &mdash; no idea submission
         or approval needed.
       </div>
       <a class="reg-btn-seafoam" href="https://www.meetup.com" target="_blank">REGISTER ON MEETUP 🔗</a>
@@ -995,7 +996,7 @@ st.markdown("""
 st.markdown("""
 <div class="gs">
   <div class="gtitle">EVENT ROADMAP</div>
-  <div class="gsub">From raw idea to the shark tank — here's the journey.</div>
+  <div class="gsub">From raw idea to the shark tank &mdash; here&#x27;s the journey.</div>
 
   <div class="tl-wrap">
 
@@ -1005,7 +1006,7 @@ st.markdown("""
         <div class="tl-label">💡 IDEA SUBMISSION DEADLINE</div>
         <div class="tl-detail">
           Submit your startup idea before the cutoff. Include a problem statement, proposed solution,
-          and team details. Teams of 1–4 MECS B.Tech students.
+          and team details. Teams of 1&ndash;4 MECS B.Tech students.
         </div>
       </div>
       <div class="tl-dot"></div>
@@ -1016,11 +1017,11 @@ st.markdown("""
       <div class="tl-spacer"></div>
       <div class="tl-dot"></div>
       <div class="tl-box">
-        <div class="tl-date">MARCH 14 – 16, 2026</div>
+        <div class="tl-date">MARCH 14 &ndash; 16, 2026</div>
         <div class="tl-label">📧 SHORTLISTING VIA EMAIL</div>
         <div class="tl-detail">
           Our panel reviews all submissions and selects the Top 20 teams.
-          Results communicated exclusively via email — keep an eye on your inbox!
+          Results communicated exclusively via email &mdash; keep an eye on your inbox!
         </div>
       </div>
     </div>
@@ -1056,7 +1057,7 @@ st.markdown("""
     <div class="gc"><span class="gicon">🏫</span><span>Open to all B.Tech years at MECS</span></div>
     <div class="gc"><span class="gicon">🦈</span><span>Top 20 teams advance to finals</span></div>
     <div class="gc"><span class="gicon">📧</span><span>Shortlisting notified via email</span></div>
-    <div class="gc"><span class="gicon">🚀</span><span>Original ideas only — no copying</span></div>
+    <div class="gc"><span class="gicon">🚀</span><span>Original ideas only &mdash; no copying</span></div>
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -1065,7 +1066,7 @@ st.markdown("""
 st.markdown("""
 <div class="gs">
   <div class="gtitle">ASK A QUERY</div>
-  <div class="gsub">Have a question about SHARKPIT 2026? Drop it below — we'll reply publicly.</div>
+  <div class="gsub">Have a question about SHARKPIT 2026? Drop it below &mdash; we&#x27;ll reply publicly.</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -1100,7 +1101,7 @@ if replied_queries:
             '<div class="qt-item" style="animation-delay:' + str(delay) + 's;">'
             '<div class="qt-dot"></div>'
             '<div class="qt-card">'
-            '<div class="qt-name">— ' + q["name"] + '</div>'
+            '<div class="qt-name">- ' + q["name"] + '</div>'
             '<div class="qt-question">' + q["message"] + '</div>'
             '<div class="qt-reply"><strong style="color:var(--seafoam);font-family:Space Mono,monospace;font-size:10px;letter-spacing:2px;">ORGANISER REPLY</strong><br/>' + q["reply"] + '</div>'
             '</div>'
